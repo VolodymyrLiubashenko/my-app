@@ -1,7 +1,7 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "homepage": "https://VolodymyrLiubashenko.github.io/my-app.git",
+  "homepage": "https://VolodymyrLiubashenko.github.io/my-app",
   "proxy": "https://conduit.productionready.io/api",
   "private": true,
   "dependencies": {
