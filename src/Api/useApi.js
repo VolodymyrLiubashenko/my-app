@@ -6,7 +6,7 @@ export const useApi = () => {
 	const { token } = useContext(Authorization);
 
 	const AuthInstance = axios.create({
-		baseURL: "/",
+		baseURL: "https://conduit.productionready.io/api/",
 		headers: {
 			Authorization: `Token ${token}}`,
 			"Access-Control-Allow-Origin": "http://localhost:3000/",
@@ -14,7 +14,7 @@ export const useApi = () => {
 	});
 
 	const Guest = axios.create({
-		baseURL: "/",
+		baseURL: "https://conduit.productionready.io/api/",
 		headers: {
 			"Access-Control-Allow-Origin": "http://localhost:3000/",
 		},
