@@ -1,0 +1,88 @@
+.published_post {
+  background: white;
+  min-width: 100px;
+  min-height: 100px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.user_info_row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.avatar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.avatar_container {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin: 10px 20px 20px 20px;
+}
+.avatar_container img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.name {
+  display: inline-block;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 10px;
+  margin-bottom: 10px;
+}
+
+.date {
+  text-transform: uppercase;
+  font-family: "Caveat";
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+
+.comment_body {
+  padding: 20px;
+  font-family: Caveat, Sans-Serif;
+  font-size: 20px;
+  overflow-x: hidden;
+}
+
+@media screen and (max-width: 450px) {
+  .avatar {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .user_data {
+    padding: 0 10px;
+  }
+
+  .date {
+    font-size: 12px;
+  }
+
+  .avatar_container {
+    margin: 10px 20px 0px 20px;
+  }
+
+  .name {
+    margin-bottom: 0px;
+  }
+}

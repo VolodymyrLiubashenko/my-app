@@ -1,0 +1,102 @@
+.elem, .previous, .next {
+  min-height: 40px;
+  min-width: 40px;
+  background: #00427b;
+  border-radius: 5px;
+  border: 2px #FFFFFF solid;
+  margin: 0 5px;
+  cursor: pointer;
+  position: relative;
+}
+.elem a, .previous a, .next a {
+  position: absolute;
+  padding: 10px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: #FFFFFF;
+  font-size: 20px;
+  font-family: Montserrat;
+  font-weight: 700;
+}
+
+.breaks {
+  position: relative;
+  min-height: 40px;
+  min-width: 40px;
+}
+.breaks a {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -100%);
+          transform: translate(-50%, -100%);
+  color: #FFFFFF;
+  font-size: 20px;
+  font-family: Montserrat;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 10px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.active_elem {
+  background: #090808;
+}
+
+.previous, .next {
+  min-width: 100px;
+}
+
+.disabled {
+  background: #999696;
+}
+
+div[data-theme=hulk] .elem, div[data-theme=hulk] .previous, div[data-theme=hulk] .next {
+  background: #40942D;
+}
+div[data-theme=hulk] .breaks a {
+  color: #40942D;
+}
+div[data-theme=hulk] .active_elem {
+  background: #090808;
+}
+div[data-theme=hulk] .disabled {
+  background: #999696;
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    padding: 0 20px;
+  }
+
+  .elem, .previous, .next {
+    min-height: 30px;
+  }
+  .elem a, .previous a, .next a {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .container {
+    padding: 0 20px;
+  }
+
+  .elem {
+    display: none;
+  }
+
+  .breaks {
+    display: none;
+  }
+}

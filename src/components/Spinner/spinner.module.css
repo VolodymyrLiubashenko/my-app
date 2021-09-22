@@ -1,0 +1,129 @@
+.spinner_container {
+  position: relative;
+  min-height: 200px;
+  background: #090808;
+  z-index: 1;
+  -webkit-animation: backgroundanim 3s linear infinite;
+          animation: backgroundanim 3s linear infinite;
+}
+.spinner_container .spinner {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border: 10px solid #f3f3f3;
+  border-top: 10px solid rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  -webkit-animation: spin 1s linear infinite;
+          animation: spin 1s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes backgroundanim {
+  0% {
+    background: #090808;
+  }
+  25% {
+    background: #00427b;
+  }
+  50% {
+    background: #090808;
+  }
+  75% {
+    background: #00427b;
+  }
+  100% {
+    background: #090808;
+  }
+}
+@keyframes backgroundanim {
+  0% {
+    background: #090808;
+  }
+  25% {
+    background: #00427b;
+  }
+  50% {
+    background: #090808;
+  }
+  75% {
+    background: #00427b;
+  }
+  100% {
+    background: #090808;
+  }
+}
+@-webkit-keyframes backgroundanimhulk {
+  0% {
+    background: #096423;
+  }
+  25% {
+    background: #40942D;
+  }
+  50% {
+    background: #096423;
+  }
+  75% {
+    background: #40942D;
+  }
+  100% {
+    background: #096423;
+  }
+}
+@keyframes backgroundanimhulk {
+  0% {
+    background: #096423;
+  }
+  25% {
+    background: #40942D;
+  }
+  50% {
+    background: #096423;
+  }
+  75% {
+    background: #40942D;
+  }
+  100% {
+    background: #096423;
+  }
+}
+.spinner_container[data-size=small] {
+  min-height: 50px;
+  border-radius: 5px;
+}
+.spinner_container[data-size=small] .spinner {
+  width: 30px;
+  height: 30px;
+  border: 5px solid #f3f3f3;
+  border-top: 5px solid rgba(0, 0, 0, 0.5);
+}
+
+div[data-theme=hulk] .spinner_container {
+  background: #096423;
+  -webkit-animation: backgroundanimhulk 3s linear infinite;
+          animation: backgroundanimhulk 3s linear infinite;
+}

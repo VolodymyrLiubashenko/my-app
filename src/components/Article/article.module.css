@@ -1,0 +1,145 @@
+.ava {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.avatar_container {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin: 20px 30px 30px 0px;
+}
+
+.avatar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.user_info_row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.article_body {
+  border: 2px solid #090808;
+  padding: 20px;
+  -webkit-box-shadow: 0 0 10px #FFFFFF;
+          box-shadow: 0 0 10px #FFFFFF;
+}
+
+.title {
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-family: "Caveat";
+  font-weight: 700;
+  font-size: 30px;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.content {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 20px;
+  max-height: 40px;
+  overflow: hidden;
+}
+
+.content[data-whole=true] {
+  max-height: none;
+  min-height: 40px;
+  overflow-x: hidden;
+}
+
+.article {
+  color: #FFFFFF;
+  padding: 20px;
+  -webkit-box-shadow: 0 0 10px #090808;
+          box-shadow: 0 0 10px #090808;
+  margin: 0px 0 10px;
+  background: #090808;
+  max-width: 100%;
+}
+
+.name {
+  display: inline-block;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 10px;
+  background: transparent;
+  color: #FFFFFF;
+}
+.name:hover {
+  text-decoration: underline;
+}
+
+.date {
+  text-transform: uppercase;
+  font-family: "Caveat";
+  font-weight: 700;
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+
+div[data-theme=hulk] .article {
+  background: #40942D;
+  color: #090808;
+}
+div[data-theme=hulk] .article li {
+  color: #FFFFFF;
+}
+div[data-theme=hulk] .name {
+  color: #090808;
+}
+div[data-theme=hulk] .article_body {
+  border: none;
+  background: #F3FEC8;
+  color: #090808;
+}
+
+@media screen and (max-width: 1024px) {
+  .date {
+    font-size: 15px;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+
+  .content {
+    font-size: 15px;
+    max-height: 30px;
+  }
+}
+@media screen and (max-width: 764px) {
+  .avatar_container {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin: 0px 10px 0px 0px;
+  }
+
+  .user_info_row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .article_body {
+    margin: 10px 0 0;
+  }
+}

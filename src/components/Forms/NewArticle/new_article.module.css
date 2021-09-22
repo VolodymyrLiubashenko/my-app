@@ -1,0 +1,106 @@
+.container {
+  min-width: 400px;
+  min-height: 500px;
+  margin: 20px auto;
+  padding: 0 25px;
+  background: #00427b;
+  border-radius: 10px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-shadow: 0 0 10px white;
+          box-shadow: 0 0 10px white;
+  z-index: 5;
+}
+
+.title {
+  font-family: Caveat;
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+}
+
+.label {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-family: Caveat;
+  color: white;
+  display: block;
+}
+
+.textarea {
+  padding: 5px 10px 5px;
+  min-height: 100px;
+  background: white;
+  resize: none;
+  border-radius: 5px;
+  font-family: Caveat;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: black;
+  -webkit-box-shadow: 0 0 5px #00427b;
+          box-shadow: 0 0 5px #00427b;
+  min-width: 100%;
+  overflow: auto;
+}
+.textarea::-webkit-scrollbar {
+  background: #00427b;
+  border-radius: 3px 3px 3px 3px;
+}
+.textarea::-webkit-scrollbar-thumb {
+  background: white;
+  border: 2px solid #00427b;
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0 0 3px #00427b;
+          box-shadow: inset 0 0 3px #00427b;
+}
+.textarea:focus {
+  -webkit-box-shadow: 0 0 10px #FBFCDC;
+          box-shadow: 0 0 10px #FBFCDC;
+}
+
+.input {
+  padding: 5px 10px 5px;
+  min-height: 40px;
+  background: white;
+  border-radius: 5px;
+  font-family: Caveat;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: black;
+  -webkit-box-shadow: 0 0 5px #00427b;
+          box-shadow: 0 0 5px #00427b;
+  min-width: 100%;
+}
+.input:focus {
+  -webkit-box-shadow: 0 0 10px #FBFCDC;
+          box-shadow: 0 0 10px #FBFCDC;
+}
+
+div[data-theme=hulk] .container {
+  background: #40942D;
+}
+div[data-theme=hulk] .textarea::-webkit-scrollbar {
+  background: #40942D;
+}
+div[data-theme=hulk] .textarea::-webkit-scrollbar-thumb {
+  border: 2px solid #40942D;
+  -webkit-box-shadow: inset 0 0 3px #40942D;
+          box-shadow: inset 0 0 3px #40942D;
+}
+
+@media screen and (max-width: 464px) {
+  .container {
+    min-width: 300px;
+  }
+}

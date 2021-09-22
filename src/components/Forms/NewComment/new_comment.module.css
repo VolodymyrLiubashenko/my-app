@@ -1,0 +1,183 @@
+.new_comment {
+  padding: 20px;
+  background: #5f090d;
+}
+
+.article {
+  color: #FFFFFF;
+  -webkit-box-shadow: 0 0 10px black;
+          box-shadow: 0 0 10px black;
+  margin: 0 auto;
+  background: #090808;
+  max-width: 1200px;
+}
+
+.comment {
+  max-width: 1200px;
+  margin: 10px auto;
+  padding: 20px;
+  background: #090808;
+}
+
+.avatar_active_container {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.avatar_active_container img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.button {
+  background: #00427b;
+  border-radius: 10px;
+  color: white;
+  font-weight: 700;
+  padding: 5px 15px;
+  margin: 5px;
+  font-family: Caveat, Sans-Serif;
+  text-transform: uppercase;
+  text-decoration: underline;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.button_container {
+  text-align: right;
+}
+
+.textarea {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 80%;
+          flex: 0 0 80%;
+  padding: 5px 10px 5px;
+  min-height: 100px;
+  background: white;
+  resize: none;
+  border-radius: 5px;
+  font-family: Caveat;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: black;
+  -webkit-box-shadow: 0 0 5px #00427b;
+          box-shadow: 0 0 5px #00427b;
+  overflow: auto;
+}
+.textarea::-webkit-scrollbar {
+  background: #00427b;
+  border-radius: 3px 3px 3px 3px;
+}
+.textarea::-webkit-scrollbar-thumb {
+  background: white;
+  border: 2px solid #00427b;
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0 0 3px #00427b;
+          box-shadow: inset 0 0 3px #00427b;
+}
+.textarea:focus {
+  -webkit-box-shadow: 0 0 10px #FBFCDC;
+          box-shadow: 0 0 10px #FBFCDC;
+}
+
+.publishedPost {
+  background: white;
+  min-width: 100px;
+  min-height: 100px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.user_info_row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.avatar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.avatar_container {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin: 10px 20px 20px 20px;
+}
+.avatar_container img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.name {
+  display: inline-block;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 10px;
+  margin-bottom: 10px;
+}
+
+.date {
+  text-transform: uppercase;
+  font-family: "Caveat";
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+
+.commentBody {
+  padding: 20px;
+  font-family: Caveat, Sans-Serif;
+  font-size: 20px;
+}
+
+div[data-theme=hulk] .new_comment {
+  background: #FFFFFF;
+}
+div[data-theme=hulk] .comment {
+  background: #20323c;
+  border-radius: 5px;
+}
+div[data-theme=hulk] .textarea::-webkit-scrollbar {
+  background: #20323c;
+}
+div[data-theme=hulk] .textarea::-webkit-scrollbar-thumb {
+  border: 2px solid #20323c;
+  -webkit-box-shadow: inset 0 0 3px #20323c;
+          box-shadow: inset 0 0 3px #20323c;
+}
+
+@media screen and (max-width: 764px) {
+  .avatar_active_container {
+    width: 70px;
+    height: 70px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .avatar_active_container {
+    width: 40px;
+    height: 40px;
+  }
+}

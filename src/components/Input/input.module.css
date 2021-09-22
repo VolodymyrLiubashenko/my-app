@@ -1,0 +1,25 @@
+.label {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-family: Caveat;
+  color: white;
+  display: block;
+}
+
+.input {
+  padding: 5px 10px 5px;
+  min-height: 40px;
+  background: white;
+  border-radius: 5px;
+  font-family: Caveat;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: black;
+  -webkit-box-shadow: 0 0 5px #00427b;
+          box-shadow: 0 0 5px #00427b;
+  min-width: 100%;
+}
+.input:focus {
+  -webkit-box-shadow: 0 0 10px #FBFCDC;
+          box-shadow: 0 0 10px #FBFCDC;
+}

@@ -1,0 +1,45 @@
+.title {
+  position: relative;
+  height: 300px;
+  background: url("../../../../images/spiderman2.png") 0% 20%/cover no-repeat fixed;
+}
+
+.content {
+  font-family: "Caveat";
+  font-weight: 700;
+  font-size: 80px;
+  letter-spacing: 2px;
+  text-align: center;
+  color: black;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  padding: 5px;
+  -webkit-text-stroke: 2px white;
+}
+
+div[data-theme=hulk] .title {
+  background: url("../../../../images/hulkTitle.jpg") 0% 20%/cover no-repeat fixed;
+}
+
+@media screen and (max-width: 1250px) {
+  .content {
+    font-size: 60px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .content {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 764px) {
+  .content {
+    top: 80%;
+  }
+
+  .title {
+    display: none;
+  }
+}

@@ -1,0 +1,165 @@
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#root{
+  height: 100%;
+  background: url('images/spiderman6.jpg')0 0%/cover no-repeat ;
+}
+#root[data-theme='hulk']{
+  background: url('images/Hulk.jpg')0 0%/cover no-repeat ;
+}
+body[data-theme='hulk']::-webkit-scrollbar{
+  background: #40942D;
+}
+body[data-theme='hulk']::-webkit-scrollbar-thumb{
+  border:2px solid #40942D;
+   box-shadow: inset 0 0 3px #40942D;
+}
+body::-webkit-scrollbar{
+    background:#00427b ;
+    border-radius:3px 3px 3px 3px;
+  }
+  body::-webkit-scrollbar-thumb{
+    background: white;
+    border:2px solid #00427b;
+    border-radius: 5px;
+    box-shadow: inset 0 0 3px #00427b;
+  }
+
+  .react-tabs {
+  -webkit-tap-highlight-color: transparent;
+  max-width: 100%;
+}
+
+.react-tabs__tab-list {
+  border-bottom: 1px solid #aaa;
+  margin: 10px 0px 0px !important;
+  padding: 0;
+}
+
+.react-tabs__tab--selected {
+  background: #090808 !important;
+  border-color: transparent !important;
+   color: white !important;
+  -webkit-box-shadow: 0 -10px 10px -10px #F1FA02;
+          box-shadow: 0 -10px 10px -10px #F1FA02;
+  text-shadow: 0 0 5px #F1FA02;
+  border-radius: 5px 5px 0 0;
+}
+
+.react-tabs__tab {
+  display: inline-block;
+  border: 1px solid transparent;
+  border-radius: 5px 5px 0 0 !important;
+  border-bottom: none;
+  bottom: -1px;
+  position: relative;
+  list-style: none;
+  padding: 6px 12px;
+  cursor: pointer;
+  background: #CC0B0B;
+  color: black;
+  font-weight: 700;
+  font-family: Caveat, Sans-Serif;
+  text-transform: uppercase;
+  text-decoration: underline;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.react-tabs__tab:hover {
+  -webkit-box-shadow: 0 -10px 20px -10px #F1FA02;
+          box-shadow: 0 -10px 20px -10px #F1FA02;
+  color: white;
+}
+
+
+
+
+.react-tabs__tab--disabled {
+  color: GrayText;
+  cursor: default;
+}
+
+.react-tabs__tab:focus {
+  box-shadow: 0 0 5px hsl(208, 99%, 50%);
+  border-color: hsl(208, 99%, 50%);
+  outline: none;
+}
+
+.react-tabs__tab:focus:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  left: -4px;
+  right: -4px;
+  bottom: -5px;
+  background: #fff;
+}
+
+.react-tabs__tab-panel {
+  display: none;
+}
+
+.react-tabs__tab-panel--selected {
+  display: block;
+}
+
+.folders {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-top: 20px;
+}
+
+
+.Toastify__toast-container--top-right {
+  top: 70px !important;
+  z-index: 1000000 ;
+}
+.Toastify__close-button{
+  color:#fff !important;
+  opacity: 1 !important;
+
+}
+.Toastify__toast--default {
+  background:#5f090d !important; 
+  max-height: 50px !important;
+   
+}
+
+.Toastify__toast{
+  min-height: 50px !important;
+}
+.Toastify__toast-body {
+ font-size: 20px !important;
+  color:#fff ;
+}
+
+ body[data-theme='hulk'] .Toastify__toast--default{
+  background: #40942D !important;
+ }
+  
+  body[data-theme='hulk'] .react-tabs__tab{
+    background: #576d7a;
+  }
+
+  body[data-theme='hulk'] .react-tabs__tab--selected{
+    background: #40942D !important;
+  }
+  

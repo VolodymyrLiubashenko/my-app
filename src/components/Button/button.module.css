@@ -1,0 +1,199 @@
+.spinner_container {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 30px;
+  height: 30px;
+  z-index: 1;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-animation: backgroundanim 3s linear infinite;
+          animation: backgroundanim 3s linear infinite;
+}
+.spinner_container .spinner {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border: 10px solid #f3f3f3;
+  border-top: 10px solid rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  -webkit-animation: spin 1s linear infinite;
+          animation: spin 1s linear infinite;
+}
+
+.button[data-isLoading=true] {
+  min-height: 30px;
+  min-width: 50px;
+  position: relative;
+  background: transparent;
+}
+.button[data-isLoading=true] .spinner_container {
+  display: inline-block;
+}
+.button[data-isLoading=true] .action {
+  display: none;
+}
+
+.button {
+  background: #CC0B0B;
+  border-radius: 10px;
+  color: #000000;
+  font-weight: 700;
+  padding: 5px 15px;
+  margin: 5px;
+  font-family: Caveat, Sans-Serif;
+  text-transform: uppercase;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+.button:hover {
+  color: #FFFFFF;
+}
+
+.button[data-ismain=true] {
+  text-decoration: underline;
+}
+.button[data-ismain=true]:hover {
+  -webkit-box-shadow: 0 0 10px #F1FA02;
+          box-shadow: 0 0 10px #F1FA02;
+  color: #FFFFFF;
+}
+
+.button[data-isBig=true] {
+  margin: 5px 0;
+  min-height: 40px;
+}
+
+.button[data-isSecondary=true] {
+  background: #00427b;
+  color: white;
+}
+.button[data-isSecondary=true]:hover {
+  -webkit-box-shadow: 0 0 10px #FFFFFF;
+          box-shadow: 0 0 10px #FFFFFF;
+}
+
+.button[data-ispressed=true] {
+  text-decoration: underline;
+  -webkit-box-shadow: 0 0 10px #F1FA02;
+          box-shadow: 0 0 10px #F1FA02;
+  color: #FFFFFF;
+}
+.button[data-ispressed=true]:hover {
+  background: #00427b;
+}
+
+.button[disabled] {
+  border: 1px solid #999696;
+  background: transparent;
+  color: #999696;
+}
+.button[disabled]:hover {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  color: #999696;
+}
+
+.button[data-isloading=true].button[data-ismain=true].button[data-ispressed=false] {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.button[data-isloading=true].button[data-ismain=true].button[data-ispressed=true] {
+  min-height: 30px;
+  min-width: 50px;
+  position: relative;
+  background: transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+.button[data-isloading=true].button[data-ismain=true].button[data-ispressed=true]:hover {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+.button[data-isloading=true].button[data-ismain=true].button[data-ispressed=true] .spinner_container {
+  display: inline-block;
+}
+.button[data-isloading=true].button[data-ismain=true].button[data-ispressed=true] .action {
+  display: none;
+}
+
+div[data-theme=hulk] .button {
+  background: #20323c;
+  color: #FFFFFF;
+}
+div[data-theme=hulk] .button[data-isSecondary=true] {
+  background: #AFE354;
+  color: #090808;
+}
+div[data-theme=hulk] .button[data-ispressed=true] {
+  background: #980DD8;
+  color: #FFFFFF;
+  -webkit-box-shadow: 0 0 10px #F8F5E7;
+          box-shadow: 0 0 10px #F8F5E7;
+}
+div[data-theme=hulk] .button[data-isMain=true]:hover {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  color: #FFFFFF;
+  background: #AFE354;
+}
+div[data-theme=hulk] .button[disabled] {
+  border: 1px solid #999696;
+  background: transparent;
+  color: #999696;
+}
+div[data-theme=hulk] .button[disabled]:hover {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  color: #999696;
+  background: none;
+}
+div[data-theme=hulk] .button[data-isloading=true].button[data-ismain=true].button[data-ispressed=false] {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background: transparent;
+}
+div[data-theme=hulk] .button[data-isloading=true].button[data-ismain=true].button[data-ispressed=true] {
+  background: transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+div[data-theme=hulk] .button[data-isloading=true].button[data-ismain=true].button[data-ispressed=true]:hover {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+div[data-theme=hulk] .button[data-isloading=true].button[data-ismain=true].button[data-ispressed=true] .spinner_container {
+  display: inline-block;
+}
+div[data-theme=hulk] .button[data-isloading=true].button[data-ismain=true].button[data-ispressed=true] .action {
+  display: none;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}

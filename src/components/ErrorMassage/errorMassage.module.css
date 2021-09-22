@@ -1,0 +1,9 @@
+.error {
+  min-height: 100%;
+  font-size: 40px;
+  color: #CC0B0B;
+  font-family: Montserrat;
+  font-weight: 700;
+  text-align: center;
+  line-height: 100px;
+}

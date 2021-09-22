@@ -1,0 +1,44 @@
+.side_bar {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 20%;
+          flex: 0 0 20%;
+  -webkit-box-shadow: 0 0 10px #090808;
+          box-shadow: 0 0 10px #090808;
+  margin-top: 20px;
+  margin-left: 20px;
+  padding: 10px;
+  background: #FDFDFA;
+}
+
+.title {
+  font-family: "Caveat";
+  font-weight: 700;
+  font-size: 20px;
+  color: #090808;
+  letter-spacing: 2px;
+  margin-bottom: 5px;
+}
+
+.button {
+  background: transparent;
+  font-family: "Caveat";
+  font-weight: 700;
+  font-size: 20px;
+  color: #00427b;
+}
+
+div[data-theme=hulk] .side_bar {
+  background: #20323c;
+}
+div[data-theme=hulk] .button {
+  color: #FFFFFF;
+}
+div[data-theme=hulk] .title {
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 1200px) {
+  .side_bar {
+    margin: 10px 0 0 0;
+  }
+}

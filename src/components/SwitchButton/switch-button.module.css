@@ -1,0 +1,35 @@
+.button {
+  min-width: 50px;
+  min-height: 20px;
+  border-radius: 10px;
+  position: relative;
+  border: 1.5px solid #0b2a47;
+  background: #CB1515;
+}
+.button::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 4%;
+  min-width: 15px;
+  min-height: 15px;
+  border-radius: 50%;
+  background: #FFFFFF;
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+  -webkit-box-shadow: 0 0 5px #FFFFFF;
+          box-shadow: 0 0 5px #FFFFFF;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.button.active::before {
+  left: 65%;
+}
+
+div[data-theme=hulk] .button {
+  background: #FFFFFF;
+}
+div[data-theme=hulk] .button::before {
+  background: #40942D;
+}

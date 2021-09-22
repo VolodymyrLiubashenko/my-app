@@ -1,0 +1,137 @@
+@charset "UTF-8";
+/*reset*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: normal;
+}
+
+/*--------------------*/
+@font-face {
+  font-family: "Caveat";
+  src: url("fonts/Caveat/Caveat-Bold/fonts/Caveat-Bold.eot");
+  src: local("☺"), url("fonts/Caveat/Caveat-Bold/fonts/Caveat-Bold.woff") format("woff"), url("fonts/Caveat/Caveat-Bold/fonts/Caveat-Bold.ttf") format("truetype"), url("fonts/Caveat/Caveat-Bold/fonts/Caveat-Bold.svg") format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Caveat";
+  src: url("fonts/Caveat/Caveat-Medium/fonts/Caveat-Medium.eot");
+  src: local("☺"), url("fonts/Caveat/Caveat-Medium/fonts/Caveat-Medium.woff") format("woff"), url("fonts/Caveat/Caveat-Medium/fonts/Caveat-Medium.ttf") format("truetype"), url("fonts/Caveat/Caveat-Medium/fonts/Caveat-Medium.svg") format("svg");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Caveat";
+  src: url("fonts/Caveat/Caveat-Regular/fonts/Caveat-Regular.eot");
+  src: local("☺"), url("fonts/Caveat/Caveat-Regular/fonts/Caveat-Regular.woff") format("woff"), url("fonts/Caveat/Caveat-Regular/fonts/Caveat-Regular.ttf") format("truetype"), url("fonts/Caveat/Caveat-Regular/fonts/Caveat-Regular.svg") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Caveat";
+  src: url("fonts/Caveat/Caveat-SemiBold/fonts/Caveat-SemiBold.eot");
+  src: local("☺"), url("fonts/Caveat/Caveat-SemiBold/fonts/Caveat-SemiBold.woff") format("woff"), url("fonts/Caveat/Caveat-SemiBold/fonts/Caveat-SemiBold.ttf") format("truetype"), url("fonts/Caveat/Caveat-SemiBold/fonts/Caveat-SemiBold.svg") format("svg");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("fonts/Montserrat/Montserrat-Regular/fonts/Montserrat-Regular.eot");
+  src: local("☺"), url("fonts/Montserrat/Montserrat-Regular/fonts/Montserrat-Regular.woff") format("woff"), url("fonts/Montserrat/Montserrat-Regular/fonts/Montserrat-Regular.ttf") format("truetype"), url("fonts/Montserrat/Montserrat-Regular/fonts/Montserrat-Regular.svg") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("fonts/Montserrat/Montserrat-Light/fonts/Montserrat-Light.eot");
+  src: local("☺"), url("fonts/Montserrat/Montserrat-Light/fonts/Montserrat-Light.woff") format("woff"), url("fonts/Montserrat/Montserrat-Light/fonts/Montserrat-Light.ttf") format("truetype"), url("fonts/Montserrat/Montserrat-Light/fonts/Montserrat-Light.svg") format("svg");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("fonts/Montserrat/Montserrat-Bold/fonts/Montserrat-Bold.eot");
+  src: local("☺"), url("fonts/Montserrat/Montserrat-Bold/fonts/Montserrat-Bold.woff") format("woff"), url("fonts/Montserrat/Montserrat-Bold/fonts/Montserrat-Bold.ttf") format("truetype"), url("fonts/Montserrat/Montserrat-Bold/fonts/Montserrat-Bold.svg") format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
+.app {
+  min-height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+/*# sourceMappingURL=App.module.css.map */
