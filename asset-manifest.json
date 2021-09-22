@@ -1,23 +1,30 @@
 {
   "files": {
-    "main.css": "/my-app/static/css/main.a617e044.chunk.css",
-    "main.js": "/my-app/static/js/main.6bc689e0.chunk.js",
-    "main.js.map": "/my-app/static/js/main.6bc689e0.chunk.js.map",
-    "runtime-main.js": "/my-app/static/js/runtime-main.639cc512.js",
-    "runtime-main.js.map": "/my-app/static/js/runtime-main.639cc512.js.map",
-    "static/js/2.8833cd6e.chunk.js": "/my-app/static/js/2.8833cd6e.chunk.js",
-    "static/js/2.8833cd6e.chunk.js.map": "/my-app/static/js/2.8833cd6e.chunk.js.map",
-    "static/js/3.ff0311e9.chunk.js": "/my-app/static/js/3.ff0311e9.chunk.js",
-    "static/js/3.ff0311e9.chunk.js.map": "/my-app/static/js/3.ff0311e9.chunk.js.map",
-    "index.html": "/my-app/index.html",
-    "static/css/main.a617e044.chunk.css.map": "/my-app/static/css/main.a617e044.chunk.css.map",
-    "static/js/2.8833cd6e.chunk.js.LICENSE.txt": "/my-app/static/js/2.8833cd6e.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/my-app/static/media/logo.6ce24c58.svg"
+    "main.css": "/VolodymyrLiubashenko/React-App.git/static/css/main.32965d82.chunk.css",
+    "main.js": "/VolodymyrLiubashenko/React-App.git/static/js/main.cc9b74ad.chunk.js",
+    "main.js.map": "/VolodymyrLiubashenko/React-App.git/static/js/main.cc9b74ad.chunk.js.map",
+    "runtime-main.js": "/VolodymyrLiubashenko/React-App.git/static/js/runtime-main.96d38f16.js",
+    "runtime-main.js.map": "/VolodymyrLiubashenko/React-App.git/static/js/runtime-main.96d38f16.js.map",
+    "static/css/2.0975cee1.chunk.css": "/VolodymyrLiubashenko/React-App.git/static/css/2.0975cee1.chunk.css",
+    "static/js/2.dba55c62.chunk.js": "/VolodymyrLiubashenko/React-App.git/static/js/2.dba55c62.chunk.js",
+    "static/js/2.dba55c62.chunk.js.map": "/VolodymyrLiubashenko/React-App.git/static/js/2.dba55c62.chunk.js.map",
+    "static/js/3.0429d0ca.chunk.js": "/VolodymyrLiubashenko/React-App.git/static/js/3.0429d0ca.chunk.js",
+    "static/js/3.0429d0ca.chunk.js.map": "/VolodymyrLiubashenko/React-App.git/static/js/3.0429d0ca.chunk.js.map",
+    "index.html": "/VolodymyrLiubashenko/React-App.git/index.html",
+    "static/css/2.0975cee1.chunk.css.map": "/VolodymyrLiubashenko/React-App.git/static/css/2.0975cee1.chunk.css.map",
+    "static/css/main.32965d82.chunk.css.map": "/VolodymyrLiubashenko/React-App.git/static/css/main.32965d82.chunk.css.map",
+    "static/js/2.dba55c62.chunk.js.LICENSE.txt": "/VolodymyrLiubashenko/React-App.git/static/js/2.dba55c62.chunk.js.LICENSE.txt",
+    "static/media/App.module.css": "/VolodymyrLiubashenko/React-App.git/static/media/Montserrat-Regular.75c4a67e.svg",
+    "static/media/index.css": "/VolodymyrLiubashenko/React-App.git/static/media/spiderman6.491ba912.jpg",
+    "static/media/titleImage.module.css": "/VolodymyrLiubashenko/React-App.git/static/media/spiderman2.95bcd41d.png",
+    "static/media/hulklogo.ba7fefdc.png": "/VolodymyrLiubashenko/React-App.git/static/media/hulklogo.ba7fefdc.png",
+    "static/media/logo4.ce184bde.png": "/VolodymyrLiubashenko/React-App.git/static/media/logo4.ce184bde.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.639cc512.js",
-    "static/js/2.8833cd6e.chunk.js",
-    "static/css/main.a617e044.chunk.css",
-    "static/js/main.6bc689e0.chunk.js"
+    "static/js/runtime-main.96d38f16.js",
+    "static/css/2.0975cee1.chunk.css",
+    "static/js/2.dba55c62.chunk.js",
+    "static/css/main.32965d82.chunk.css",
+    "static/js/main.cc9b74ad.chunk.js"
   ]
 }
