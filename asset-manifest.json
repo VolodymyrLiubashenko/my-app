@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/VolodymyrLiubashenko/React-App.git/static/css/main.32965d82.chunk.css",
-    "main.js": "/VolodymyrLiubashenko/React-App.git/static/js/main.cc9b74ad.chunk.js",
-    "main.js.map": "/VolodymyrLiubashenko/React-App.git/static/js/main.cc9b74ad.chunk.js.map",
-    "runtime-main.js": "/VolodymyrLiubashenko/React-App.git/static/js/runtime-main.96d38f16.js",
-    "runtime-main.js.map": "/VolodymyrLiubashenko/React-App.git/static/js/runtime-main.96d38f16.js.map",
-    "static/css/2.0975cee1.chunk.css": "/VolodymyrLiubashenko/React-App.git/static/css/2.0975cee1.chunk.css",
-    "static/js/2.dba55c62.chunk.js": "/VolodymyrLiubashenko/React-App.git/static/js/2.dba55c62.chunk.js",
-    "static/js/2.dba55c62.chunk.js.map": "/VolodymyrLiubashenko/React-App.git/static/js/2.dba55c62.chunk.js.map",
-    "static/js/3.0429d0ca.chunk.js": "/VolodymyrLiubashenko/React-App.git/static/js/3.0429d0ca.chunk.js",
-    "static/js/3.0429d0ca.chunk.js.map": "/VolodymyrLiubashenko/React-App.git/static/js/3.0429d0ca.chunk.js.map",
-    "index.html": "/VolodymyrLiubashenko/React-App.git/index.html",
-    "static/css/2.0975cee1.chunk.css.map": "/VolodymyrLiubashenko/React-App.git/static/css/2.0975cee1.chunk.css.map",
-    "static/css/main.32965d82.chunk.css.map": "/VolodymyrLiubashenko/React-App.git/static/css/main.32965d82.chunk.css.map",
-    "static/js/2.dba55c62.chunk.js.LICENSE.txt": "/VolodymyrLiubashenko/React-App.git/static/js/2.dba55c62.chunk.js.LICENSE.txt",
-    "static/media/App.module.css": "/VolodymyrLiubashenko/React-App.git/static/media/Montserrat-Regular.75c4a67e.svg",
-    "static/media/index.css": "/VolodymyrLiubashenko/React-App.git/static/media/spiderman6.491ba912.jpg",
-    "static/media/titleImage.module.css": "/VolodymyrLiubashenko/React-App.git/static/media/spiderman2.95bcd41d.png",
-    "static/media/hulklogo.ba7fefdc.png": "/VolodymyrLiubashenko/React-App.git/static/media/hulklogo.ba7fefdc.png",
-    "static/media/logo4.ce184bde.png": "/VolodymyrLiubashenko/React-App.git/static/media/logo4.ce184bde.png"
+    "main.css": "/my-app/static/css/main.561c6966.chunk.css",
+    "main.js": "/my-app/static/js/main.90dec80e.chunk.js",
+    "main.js.map": "/my-app/static/js/main.90dec80e.chunk.js.map",
+    "runtime-main.js": "/my-app/static/js/runtime-main.0c35292e.js",
+    "runtime-main.js.map": "/my-app/static/js/runtime-main.0c35292e.js.map",
+    "static/css/2.0975cee1.chunk.css": "/my-app/static/css/2.0975cee1.chunk.css",
+    "static/js/2.35dca15a.chunk.js": "/my-app/static/js/2.35dca15a.chunk.js",
+    "static/js/2.35dca15a.chunk.js.map": "/my-app/static/js/2.35dca15a.chunk.js.map",
+    "static/js/3.01eaab08.chunk.js": "/my-app/static/js/3.01eaab08.chunk.js",
+    "static/js/3.01eaab08.chunk.js.map": "/my-app/static/js/3.01eaab08.chunk.js.map",
+    "index.html": "/my-app/index.html",
+    "static/css/2.0975cee1.chunk.css.map": "/my-app/static/css/2.0975cee1.chunk.css.map",
+    "static/css/main.561c6966.chunk.css.map": "/my-app/static/css/main.561c6966.chunk.css.map",
+    "static/js/2.35dca15a.chunk.js.LICENSE.txt": "/my-app/static/js/2.35dca15a.chunk.js.LICENSE.txt",
+    "static/media/App.module.css": "/my-app/static/media/Montserrat-Regular.75c4a67e.svg",
+    "static/media/index.css": "/my-app/static/media/spiderman6.491ba912.jpg",
+    "static/media/titleImage.module.css": "/my-app/static/media/spiderman2.95bcd41d.png",
+    "static/media/hulklogo.ba7fefdc.png": "/my-app/static/media/hulklogo.ba7fefdc.png",
+    "static/media/logo4.ce184bde.png": "/my-app/static/media/logo4.ce184bde.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.96d38f16.js",
+    "static/js/runtime-main.0c35292e.js",
     "static/css/2.0975cee1.chunk.css",
-    "static/js/2.dba55c62.chunk.js",
-    "static/css/main.32965d82.chunk.css",
-    "static/js/main.cc9b74ad.chunk.js"
+    "static/js/2.35dca15a.chunk.js",
+    "static/css/main.561c6966.chunk.css",
+    "static/js/main.90dec80e.chunk.js"
   ]
 }
