@@ -96,7 +96,7 @@ const Header = ({ userRequestState }) => {
 				<nav ref={navbar} className={style.navigation}>
 					<ul className={style.navbar}>
 						<li className={style.navbar_item}>
-							<Link to="/" activeClassName={style.active}>
+							<Link to="/my-app" activeClassName={style.active}>
 								<button
 									type="button"
 									className={style.button}
