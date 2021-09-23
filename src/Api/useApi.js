@@ -9,14 +9,14 @@ export const useApi = () => {
 		baseURL: "https://conduit.productionready.io/api/",
 		headers: {
 			Authorization: `Token ${token}}`,
-			"Access-Control-Allow-Origin": "http://localhost:3000/",
+			// "Access-Control-Allow-Origin": "http://localhost:3000/",
 		},
 	});
 
 	const Guest = axios.create({
 		baseURL: "https://conduit.productionready.io/api/",
 		headers: {
-			"Access-Control-Allow-Origin": "http://localhost:3000/",
+			// "Access-Control-Allow-Origin": "http://localhost:3000/",
 		},
 	});
 
