@@ -37,7 +37,7 @@ function App() {
 
   return (
     <BrowserRouter>
-      {!isLoggedIn? <Redirect to="/my-app" />: true}
+      {!isLoggedIn? <Redirect to="/" />: true}
       <div className={style.app}>
         <Header userRequestState={userRequestState}  />
         <ToastContainer
@@ -72,7 +72,7 @@ function App() {
         <Route exact path="/signupform">
           {isLoggedIn ? <Redirect to="/" /> :  <SignUpForm/>}
         </Route>
-        <Route exact path="/my-app/">
+        <Route exact path="/">
           <HomePage isLoggedIn={isLoggedIn}/>
         </Route>
         <Footer />
